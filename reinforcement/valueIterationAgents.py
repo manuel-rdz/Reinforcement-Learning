@@ -69,8 +69,6 @@ class ValueIterationAgent(ValueEstimationAgent):
         if action_value > max_action_value:
           max_action_value = action_value
           self.best_action[s] = a
-
-    "*** YOUR CODE HERE ***"
     
   def getValue(self, state):
     """
